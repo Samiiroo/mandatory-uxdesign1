@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>UX-LAB</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="mds.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="mds.js" defer ></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+  <form class="forms-container">
+   <div class="mds-text-field">
+    <input class="mds-text-field__input" type="text" name="Textfield" required="" minlength="3">
+    <label class="mds-text-field__label">Label</label>
+   </div>
+   <div class="mds-text-field">
+    <input class="mds-text-field__input__disabled" type="text" name="TextField" required="" disabled="disabled">
+    <label class="mds-text-field__label">Textfield Disabled</label>
+   </div>
+   <div class="mds-switch">
+    <input class="mds-switch__input" name="" type="checkbox">
+    <label class="mds-switch__label"></label>
+   </div>
+   <div class="mds-switch">
+    <input class="mds-switch__input" name="" type="checkbox"  disabled="disabled" >
+    <label class="mds-switch__label"> Disabled </label>
+   </div>
+   <div class="mds-switch">
+      <input class="mds-switch__input" name="" type="checkbox" checked="checked" disabled="disabled">
+      <label class="mds-switch__label"> Always on </label>
+     </div>
+   <div class="mds-checkbox">
+     <input class="mds-checkbox__input" type="checkbox" name="">
+   </div>
+   <div class="mds-checkbox">
+    <input class="mds-checkbox__input" type="checkbox" name="" disabled="disabled" checked="checked">
+    <label class="mds-checkbox__label">Always on</label>
+  </div>
+   <div class="mds-radio">
+     <input class="mds-radio__input" type="radio" name="options">
+     <span class="mds-radio__span">Option One</span>
+   </div>
+   <div class="mds-radio">
+     <input class="mds-radio__input" type="radio" name="options">
+     <span class="mds-radio__span">Option Two</span>
+   </div>
+  </form>
+</body>
+</html>
